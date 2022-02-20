@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EKM Seafoods</title>
+    <!-- BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="./assets/vendors/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./assets/custom/index.css" />
+    <!-- FAVICON -->
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar container-fluid navbar-expand-md navbar-light bg-light bg-transparent"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="assets/images/seafood_center.png" class="logo_img"
+          /></a>
+          <button
+            class="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 nav-right">
+              <li class="nav-item me-2">
+                <a
+                  id="home"
+                  aria-current="page"
+                  onclick="activate(this.id)"
+                  href="#"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="about" onclick="activate(this.id)" href="#about_div"
+                  >ABOUT</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="product" onclick="activate(this.id)" href="#product_div"
+                  >PRODUCTS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="con" onclick="activate(this.id)" href="#con_div"
+                  >CONTACT US</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <span class="bg-col"></span>
+      <div id="header_col2" class="text-center w-100">
+        <h2>ASIAN EKM SEAFOODS</h2>
+        <br />
+        <span>The growing integrated seafood exporter in India.</span><br />
+        <a href="#about_div" class="btn btn-outline-light mt-4">Our Products</a>
+      </div>
+    </header>
+
+    <div class="about-div" id="about_div">
+      <h1>ABOUT</h1>
+      <div
+        id="about_txt_col"
+        class="text-black-50 d-flex flex-column align-content-lg-center"
+      >
+        <span class="h3"
+          >The Asian EKM is growing and strat up company in India.</span
+        >
+        <br />
+        <h4>
+          We source the seafoods from the respective and such as couragious
+          Tamil fisher man society.
+        </h4>
+      </div>
+    </div>
+    <div class="con-div" id="con_div">
+      <h1>CONTACT US</h1>
+      <span class="line-f"></span>
+      <div
+        class="w-100 d-block d-md-flex flex-row justify-content-center mt-2 con-text"
+      >
+        <address class="col-md-4 m-md-auto" style="color: white">
+          <span class="fw-bold">ASIAN EKN SEAFOODS</span><br />
+          Tamilnadu, India - 614630.
+        </address>
+        <p class="col-md-4 m-md-auto text-md-center mb-2">
+          asianekmseafoods@gmail.com
+        </p>
+        <p class="col-md-4 m-md-auto text-md-end mb-2">
+          Contact : +91 82205 44237
+        </p>
+      </div>
+      <!-- <img src="./assets/images/seafood_right.jpg" width="100%" /> -->
+    </div>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="./assets/vendors/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- JQUERY JS -->
+    <script src="./assets/vendors/Jquery-ajax-js v3.6/jquery.min.js"></script>
+    <!-- CUSTOM JS -->
+    <script src="./assets/custom/index.js"></script>
+  </body>
+</html>
